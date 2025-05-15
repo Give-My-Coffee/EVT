@@ -1,0 +1,81 @@
+body {
+    background-color: #ffe8d6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 1440px;
+    background-color: rgb(255, 250, 246);
+    padding: 20px;
+}
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('fonts/Bebas_Neue/BebasNeue-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Oswald';
+    src: url('fonts/Oswald/Oswald-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Russo One';
+    src: url('fonts/Russo_One/RussoOne-Regular.ttf') format('truetype');
+}
+
+/* Применение шрифтов */
+#Дэдпул1 .description {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 18px;
+}
+
+#Дэдпул2 .description {
+    font-family: 'Oswald', sans-serif;
+    font-size: 17px;
+}
+
+#ДэдпулИРосомаха .description {
+    font-family: 'Russo One', sans-serif;
+    font-size: 16px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.center {
+    text-align: center;
+}
+
+.justify {
+    text-align: justify;
+}
+
+.left {
+    text-align: left;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 15px 0;
+}
+
+.gallery img {
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
